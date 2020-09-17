@@ -51,3 +51,25 @@ Due to limitations of the App framework used (for easy porting to iOS in the fut
 Clicking on an individual photo will let you preview that photo at its full resolution, giving you the option of just saving that individual photo.
 
 ![6](6.png)
+
+## Installation
+
+Installation is a bit of a pain because I made the stupid decision to make this with UWP, but here goes...
+
+First, extract the release zip.
+
+Next, you'll need to install the included certificate (EliteM1Packaging_1.0.1.0_x86.cer) by first double clicking it, then clicking "Install Certificate...".
+
+![c1](c1.png)
+
+Next you'll need to choose "Local Machine" before clicking "Next".
+
+![c2](c2.png)
+
+Then choose to store the certificate under "Trusted People" (you trust me, right?).
+
+![c3](c3.png)
+
+Finally click through to the end before double-clicking **EliteM1Packaging_1.0.1.0_x86.appxbundle** to install it.
+
+![c4](c4.png)
